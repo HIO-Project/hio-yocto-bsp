@@ -23,7 +23,7 @@
   <project remote="freescale" revision="60588a7c20f97f6db670bcdad481c8323859ad8f" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   
   <!--add ben-->
-  <project remote="qt5" revision="dc277b5a52e3da6b7b50c9f5f2e185f841788e33" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="qt5" revision="daisy" name="meta-qt5" path="sources/meta-qt5"/>
   
   <!--add ben-->
   <project remote="meta-hio-public" revision="master" name="meta-hio" path="sources/meta-hio"/>
