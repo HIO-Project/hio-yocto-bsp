@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="daisy"/>
+  <default sync-j="4" revision="jethro"/>
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
@@ -9,21 +9,21 @@
   <remote fetch="git://github.com/HIO-Project" name="qt5"/>
   <remote fetch="git://github.com/HIO-Project" name="meta-hio-public"/>
 
-  <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="yocto" revision="347347ad78c4c2502e83f2c2adff61f1ba8fed8b" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="29980a69f092e231ae6075ca48bacaa0eb73bc6a" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
-  <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="4fdb203c182dae6f451ca131c0edfd5f0c99fc28" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="dizzy" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="freescale" revision="3a9c59399dbcf4790578125f016c6e86aff43367" name="fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="dizzy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="dizzy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="freescale" revision="95f6f731517817ae2f8b379da43ab3376005e5d4" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="2231e946e7a94d096394f2b2477e8184c9bbde7b" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   
   <!--add ben-->
-  <project remote="qt5" revision="daisy" name="meta-qt5" path="sources/meta-qt5"/>
+  <!--<project remote="qt5" revision="daisy" name="meta-qt5" path="sources/meta-qt5"/>-->
   
   <!--add ben-->
   <project remote="meta-hio-public" revision="master" name="meta-hio" path="sources/meta-hio"/>
